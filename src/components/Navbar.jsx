@@ -9,15 +9,18 @@ export default function Navbar() {
     <nav className="bg-blue-600 text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold">
+        <Link to="/" className="text-2xl font-bold flex items-center justify-center">
+        <img className="w-18 h-10" src="/git_practice.png" alt="" />
           GitPractice
         </Link>
+        
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-gray-200">Home</Link>
           <Link to="/lessons" className="hover:text-gray-200">Lessons</Link>
           <Link to="/about" className="hover:text-gray-200">About</Link>
+          <Link to="/terminal" className="hover:text-gray-200">Terminal</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -32,6 +35,7 @@ export default function Navbar() {
           <Link to="/" className="hover:text-gray-200" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/lessons" className="hover:text-gray-200" onClick={() => setIsOpen(false)}>Lessons</Link>
           <Link to="/about" className="hover:text-gray-200" onClick={() => setIsOpen(false)}>About</Link>
+          <Link to="/terminal" className="hover:text-gray-200" onClick={() => setIsOpen(false)}>Terminal</Link>
         </div>
       )}
     </nav>
