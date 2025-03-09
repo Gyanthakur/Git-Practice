@@ -1,6 +1,3 @@
-
-
-
 import Intro from "./lessons/Intro";
 import Install from "./lessons/Install";
 import Setup from "./lessons/Setup";
@@ -23,34 +20,36 @@ import GitCommandsLesson from "./lessons/GitCommandsLesson";
 import SiteOverview from "./SiteOverview";
 
 const lessonComponents = {
-  intro: <Intro />,
-  install: <Install />,
-  setup: <Setup />,
-  init: <Init />,
-  clone: <Clone />,
-  status: <Status />,
-  add: <Add />,
-  commit: <Commit />,
-  log: <Log />,
-  branch: <Branch />,
-  checkout: <Checkout />,
-  merge: <Merge />,
-  remote: <Remote />,
-  push: <Push />,
-  pull: <Pull />,
-  stash: <Stash />,
-  rebase: <Rebase />,
-  "cherry-pick": <CherryPick />,
-  all_cammands: <GitCommandsLesson/>
+	intro: <Intro />,
+	install: <Install />,
+	setup: <Setup />,
+	init: <Init />,
+	clone: <Clone />,
+	status: <Status />,
+	add: <Add />,
+	commit: <Commit />,
+	log: <Log />,
+	branch: <Branch />,
+	checkout: <Checkout />,
+	merge: <Merge />,
+	remote: <Remote />,
+	push: <Push />,
+	pull: <Pull />,
+	stash: <Stash />,
+	rebase: <Rebase />,
+	"cherry-pick": <CherryPick />,
+	all_cammands: <GitCommandsLesson />,
 };
 
 const LessonContent = ({ lessonId }) => {
-  return (
-    <div className="p-4  bg-white shadow rounded">
-      {lessonComponents[lessonId] || <SiteOverview/>}
-      {/* {lessonComponents[lessonId] || <p>Select a lesson from the sidebar.</p>} */}
+
+  const isHome = !lessonId;
+
+	return (
+		  <div className="p-4 bg-white shadow rounded">
+      {isHome ? <SiteOverview /> : (lessonComponents[lessonId] ||<SiteOverview />)}
     </div>
-  );
+	);
 };
 
 export default LessonContent;
