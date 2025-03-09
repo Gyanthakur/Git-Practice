@@ -1,11 +1,7 @@
 <div align="center">
-  
-
-![git_practice3](https://github.com/user-attachments/assets/dac5cfc2-a2cf-4dd1-94f5-2305de783007)
-
-
-
+  <img src="https://github.com/user-attachments/assets/4fa179df-9f16-4230-8f73-b47881941fb7" alt="git_practice5" width="500" height="300">
 </div>
+
 
 # Git Learning CLI
 
