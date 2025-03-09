@@ -1,7 +1,4 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/05895e29-e55b-495c-97e4-746a6b0de0c6" alt="git_practice5" width="500" height="300">
 
-</div>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4fa179df-9f16-4230-8f73-b47881941fb7" alt="git_practice5" width="300" height="300">
 </div>
