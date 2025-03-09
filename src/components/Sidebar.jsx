@@ -546,7 +546,7 @@ export default function Sidebar({ onSelectLesson }) {
       { id: "stash", title: "git stash" },
       { id: "rebase", title: "git rebase" },
       { id: "cherry-pick", title: "git cherry-pick" },
-      { id: "all_commands", title: "Git commands" },
+      { id: "all_cammands", title: "Git cammands" },
     ],
   };
 
@@ -689,7 +689,7 @@ export default function Sidebar({ onSelectLesson }) {
   return (
     <>
       {/* Mobile menu button */}
-      <div className="lg:hidden fixed top-0 left-0 right-0 z-10 bg-white p-4 border-b border-gray-200 shadow-sm flex justify-between items-center">
+      <div className="lg:hidden fixed top-0 mt-16 left-0 right-0 z-10 bg-white p-4 border-b border-gray-200 shadow-sm flex justify-between items-center">
         <h2 className="text-lg font-bold text-gray-800">Git & GitHub Lessons</h2>
         <button 
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -701,7 +701,7 @@ export default function Sidebar({ onSelectLesson }) {
 
       {/* Mobile sidebar */}
       <aside 
-        className={`fixed inset-0 bg-white z-20 transform transition-transform duration-300 lg:hidden overflow-y-auto ${
+        className={`fixed inset-0 bg-white  z-20 transform transition-transform duration-300 lg:hidden overflow-y-auto ${
           isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ top: "60px" }}
