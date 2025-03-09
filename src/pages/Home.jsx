@@ -8,10 +8,10 @@ const Home = () => {
 
 	return (
 		<>
-			<div className="flex h-screen">
+			<div className="flex min-h-screen ">
 				<Sidebar onSelectLesson={setSelectedLesson} />
 
-				<div className="p-6">
+				<div className="w-full p-5 mt-14">
 					<LessonContent lessonId={selectedLesson} />
 				</div>
 			</div>
