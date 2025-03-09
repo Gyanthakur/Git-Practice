@@ -121,8 +121,7 @@ Once inside the CLI, type `help` to see available commands.
 |-----------------------|------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------------------------------------------------|
 | **Lesson Content**    | ![Lesson Content](https://github.com/user-attachments/assets/f79ec624-e50d-47fd-9889-706ce8c80bfc) | **Lesson**        | ![Lesson](https://github.com/user-attachments/assets/7700c6c7-e848-426d-93d2-3810de336731)      |
 | **About**            | ![About](https://github.com/user-attachments/assets/bc54936f-92b6-440c-9d32-95e140ebb13a)      | **Contact Page**  | ![Contact Page](https://github.com/user-attachments/assets/3934f94a-0765-43d2-a2c0-7f34efdc874d) |
-| **Terms & Conditions** | ![Terms & Conditions](https://github.com/user-attachments/assets/fc989103-56b5-4b05-9584-703bdea4dfc9) |     **Footer**               |                                                                                                |![image](https://github.com/user-attachments/assets/d7f4a546-85c5-427f-96ba-d09b90eaf426)
-
+| **Terms & Conditions** | ![Terms & Conditions](https://github.com/user-attachments/assets/fc989103-56b5-4b05-9584-703bdea4dfc9) | **Footer**        | ![Footer](https://github.com/user-attachments/assets/d7f4a546-85c5-427f-96ba-d09b90eaf426)      |
 
 
 
