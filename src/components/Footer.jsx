@@ -114,7 +114,7 @@ const Footer = () => {
 					{error && <p className="text-red-400 text-xs mt-2">{error}</p>}
 
 					{/* Social Icons */}
-					<div className="ml-8 mt-8 md:ml-0 md:mt-0">
+					<div className="">
 						<SocialIcons />
 					</div>
 				</div>
