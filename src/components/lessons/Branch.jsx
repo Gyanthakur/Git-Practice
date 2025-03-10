@@ -2,7 +2,7 @@ import React from "react";
 
 const Branch = () => {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md border border-gray-300">
+    <div className="p-6 ml-2 md:ml-5 mr-2  mt-20 md:mt-5 mb-5 bg-white rounded-lg shadow-md border border-gray-300">
       <h2 className="text-2xl font-semibold mb-4 bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
         Git Branch
       </h2>

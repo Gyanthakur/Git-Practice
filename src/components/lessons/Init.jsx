@@ -1,7 +1,7 @@
 import React from "react";
 
 const Init = () => (
-  <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200">
+  <div className="bg-white p-5 ml-2 mr-2  mt-20 md:mt-5 mb-5 rounded-lg shadow-md border border-gray-200">
     <h2 className="text-2xl font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
       git init
     </h2>

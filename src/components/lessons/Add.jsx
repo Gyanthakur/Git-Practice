@@ -2,7 +2,7 @@ import React from "react";
 
 const Add = () => {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md border border-gray-300">
+    <div className="p-6 ml-2 mr-2  mt-20 md:mt-5 mb-5 bg-white rounded-lg shadow-md border border-gray-300">
       <h2 className="text-2xl font-semibold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">
         Git Add
       </h2>

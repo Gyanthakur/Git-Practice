@@ -1,5 +1,5 @@
 const Rebase = () => (
-  <div className="p-5 bg-white rounded-lg shadow-md border border-gray-200">
+  <div className="p-5 ml-2 md:ml-5 mr-2  mt-20 md:mt-5 mb-5 bg-white rounded-lg shadow-md border border-gray-200">
     <h2 className="text-xl font-bold mb-3 bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
       git rebase
     </h2>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Install = () => (
-  <div className="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg border border-gray-200">
+  <div className="max-w-2xl  mt-20 md:mt-5 mb-5 mx-auto p-6 bg-white shadow-lg rounded-lg border border-gray-200">
     <h2 className="text-2xl font-bold text-gray-800 mb-4">Installing Git</h2>
 
     <p className="text-gray-700 leading-relaxed mb-4">
