@@ -45,13 +45,13 @@ const LessonContent = ({ lessonId }) => {
 	const isHome = !lessonId;
 
 	return (
-		<div className="p-4 md:p-6 lg:p-8 bg-white shadow-lg rounded-lg max-w-4xl mx-auto">
+		<>
 			{isHome ? (
 				<SiteOverview />
 			) : (
 				lessonComponents[lessonId] || <SiteOverview />
 			)}
-		</div>
+		</>
 	);
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-white text-gray-900 mb-10">
+    <div className="min-h-screen bg-white max-w-[100vw] text-gray-900 mb-10">
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center px-4 py-10 sm:py-16">
         <h1 className="text-4xl sm:text-6xl font-extrabold text-gray-800">

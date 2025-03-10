@@ -11,9 +11,9 @@ const Home = () => {
 			<div className="flex min-h-screen ">
 				<Sidebar onSelectLesson={setSelectedLesson} />
 
-				<div className="w-full p-5 mt-14">
+				{/* <div className="w-full bg-red-200 p-5 mt-14"> */}
 					<LessonContent lessonId={selectedLesson} />
-				</div>
+				{/* </div> */}
 			</div>
 		</>
 	);
